@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Scartleth</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      color: white;
+      text-align: center;
+
+      background: url("OIG4 (52).jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background: rgba(0,0,0,0.65);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .perfil img {
+      width: 160px;
+      border-radius: 50%;
+      border: 4px solid #ff6a00;
+      margin-top: 20px;
+      box-shadow: 0 0 20px #ff6a00;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 2.8em;
+      text-shadow: 0 0 10px #ff6a00;
+    }
+
+    .perfil p {
+      opacity: 0.9;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 600px;
+      backdrop-filter: blur(6px);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 15px rgba(255, 106, 0, 0.5);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+      color: #ffb347;
+    }
+
+    p {
+      margin: 6px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: linear-gradient(45deg, #ff6a00, #ff8c42);
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px #ff6a00;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="overlay">
+
+    <!-- PERFIL -->
+    <div class="perfil">
+      <img src="cabeza de mi skin de vaca.png" alt="icono">
+      <h1>🌸 Scartleth</h1>
+      <p>Builder | Staff | Developer</p>
+    </div>
+
+    <!-- SOBRE MI -->
+    <div class="card">
+      <h2>✨ Sobre mí</h2>
+      <p>Soy Scartleth, enfocada en Minecraft y Discord.</p>
+      <p>Me especializo en gestión de servidores, construcción (builder) y programación de bots.</p>
+      <p></p>
+    </div>
+
+    <!-- EXPERIENCIA -->
+    <div class="card">
+      <h2>🛠️ Experiencia</h2>
+      <p>🟣 Skytten Network → Admin & Gestión</p>
+      <p>🔵 ExtremTouch → Moderadora</p>
+      <p>🟠 MineFanta Studios → Gestión</p>
+    </div>
+
+    <!-- PROYECTOS -->
+    <div class="card">
+      <h2>🚀 Proyectos</h2>
+      <p>🎮 Servidores Minecraft</p>
+      <p>🤖 Bots de Discord</p>
+      <p>🏗️ Builder (mapas y construcciones)</p>
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="card">
+      <h2>📞 Contacto</h2>
+      <p>Discord: <strong>Scartlyh</strong></p>
+      <a class="btn" href="#">Contáctame</a>
+    </div>
+
+  </div>
+</body>
+</html>
